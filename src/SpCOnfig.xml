@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+    http://www.springframework.org/schema/context  
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+   <!-- 
+ <bean id="id1" class="com.home.Author">  
+  <property name="authorname" value="Agatha Christie" />  
+ </bean>  
+ 
+ <bean id="bk" class="com.home.Book">  
+  <property name="bookname" value="Death On The Nile" />  
+ </bean>  
+ 
+ <bean id="bk1" class="com.home.Book">  
+  <property name="bookname" value="Unexpected Guest" />  
+ </bean>   -->
+ 
+ <context:component-scan base-package="com.home" />
+</beans>  
